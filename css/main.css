@@ -67,6 +67,7 @@
 
 }
 .header-flex-one{
+  width: 556px;
  display: flex;
  flex-direction: column;
   justify-content: flex-start;
@@ -78,9 +79,28 @@ font-size: 16px;
 line-height: 30px;
 color: #4F5665;
 }
+.main-btn-pink{
+  box-shadow: 0 12px 16px 0;
+  color: #FCFFFF;;
+  padding: 17px 80px;
+  background:  #F53855;
+  border-radius: 10px;
+  border: 2px solid #F53855;
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+.main-btn-pink:hover{
+  color: #c4122c;
+  background: #FCFFFF;
+}
+.main-btn-tran{
+  min-width: 222px;
+  height: 60px;
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(54px);
+}
 .header-flex-two{
   display: flex;
-  
    justify-content: flex-end;
   align-items: stretch;
 }
