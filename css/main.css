@@ -1,4 +1,4 @@
-@font-face{
+body{
   font-family:'Lato', sans-serif;
 }
 
@@ -66,7 +66,7 @@
   color: #0B132A;
 
 }
-.header-flex-one{
+.main-flex-one{
   width: 556px;
  display: flex;
  flex-direction: column;
@@ -99,8 +99,65 @@ color: #4F5665;
   background: rgba(245, 56, 56, 0.35);
   filter: blur(54px);
 }
-.header-flex-two{
+.main-flex-two{
   display: flex;
-   justify-content: flex-end;
-  align-items: stretch;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.common-contaner{
+  display: flex;
+
+}
+.colum-4{
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+.chapter-catalog{
+width: 384px;
+height: 100px;
+}
+.clarification{
+font-size: 16px;
+line-height: 30px;
+}
+.rewrite{
+  font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+color: #4F5665;
+}
+.information{
+}
+.colum-5{ 
+   margin: 10px;
+padding: 90px;
+  background: #FCFFFF;
+border: 2px solid #DDDDDD;
+box-sizing: border-box;
+border-radius: 10px;
+}
+.box{
+display: flex;
+  justify-content: center;
+}
+.title-two{
+  font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+color: #0B132A;
+}
+.plan{
+  
+text-align: center;
+color: #0B132A;
+}
+.bulit{
+  list-style-type: none;
+}
+.genus{
+  color: #4F5665;
+}
+.price{
 }
