@@ -211,3 +211,12 @@ padding: 60px 98px;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+.column-left{
+
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.column-rig{
+  justify-content: flex-end;
+  align-items: flex-start;
+}
