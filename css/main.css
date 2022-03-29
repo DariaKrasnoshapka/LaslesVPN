@@ -129,6 +129,24 @@ line-height: 30px;
 color: #4F5665;
 }
 .information{
+  padding: 60px 99px ;
+background: #FCFFFF;
+border-radius: 10px;
+}
+.information-con{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.asideм-footer{
+
+}
+.information-text{
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #4F5665;
 }
 .colum-5{
    margin: 10px;
@@ -224,6 +242,8 @@ padding: 60px 98px;
   border-radius: 50px;
    min-width: 60px;
 min-height: 60px;
+margin: 10px;
+
 }
 .circle-white{
   background: #FCFFFF;
@@ -258,4 +278,28 @@ border-radius: 70px;
 width: 55px;
 height: 55px;
 padding: 15px;
+}
+.ticks{
+  list-style-image: url("C:\Users\Андрій\LaslesVPN\LaslesVPN\img\men.png");
+}
+.color-left{
+  color: #F53838 ;
+  
+}
+.color-right{
+  color: #FCFFFF;
+}
+.but-right{
+  display: flex;
+justify-content: flex-end;
+
+
+}
+.star-color{
+color: #FEA250;
+}
+.colum-7{
+  display: flex;
+  justify-content: space-between;
+flex-wrap: nowrap;
 }
