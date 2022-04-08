@@ -160,7 +160,6 @@ body {
   justify-content: space-around;
   flex-direction: row;
 }
-
 .asideм-footer {}
 
 .information-text {
@@ -217,7 +216,6 @@ body {
   box-shadow: 0 12px 16px 0;
   color: #FCFFFF;
   padding: 13px 45px;
-  ;
   background: #F53855;
   border-radius: 50px;
   border: 2px solid #F53855;
@@ -244,7 +242,6 @@ body {
   width: 360px;
   height: 277px;
   background: #FCFFFF;
-
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -320,9 +317,18 @@ body {
 }
 
 .ticks {
-  list-style-image: url("C:\Users\Андрій\LaslesVPN\LaslesVPN\img\men.png");
+  font-size: 24px; 
+  font-family: "OpenSans"; 
+  color: green;
+  text-transform: uppercase;  
 }
-
+.placing{
+justify-content: space-around;
+}
+.placing-text{
+justify-items: flex-start;
+ align-content: stretch;
+}
 .color-left {
   color: #F53838;
 }
