@@ -323,11 +323,15 @@ body {
   text-transform: uppercase;  
 }
 .placing{
-justify-content: space-around;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
 }
 .placing-text{
-justify-items: flex-start;
- align-content: stretch;
+
+justify-items: flex-end;
+ align-content: flex-end;
 }
 .color-left {
   color: #F53838;
