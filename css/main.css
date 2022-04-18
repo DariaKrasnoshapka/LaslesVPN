@@ -112,6 +112,8 @@ body {
 }
 
 .main-btn-tran {
+  display: flex;
+  flex-wrap: wrap;
   min-width: 222px;
   height: 60px;
   background: rgba(245, 56, 56, 0.35);
@@ -196,8 +198,11 @@ justify-content: space-around;
 
 .box {
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
+}
+.frame{
+  background: #FCFFFF;
+  border-radius: 10px; 
 }
 .left-one{
   justify-content:flex-start ;
@@ -234,7 +239,6 @@ align-items: flex-start;
 }
 
 .bttun-pink {
-
   box-shadow: 0 12px 16px 0;
   color: #FCFFFF;
   padding: 13px 45px;
@@ -282,11 +286,23 @@ align-items: flex-start;
 }
 
 .rig {
- align-items:baseline;
- 
-  justify-content: flex-end;
-}
+  display: flex;
+ align-items:center;
+ justify-content: flex-end;
 
+}
+.boxtitle-two{
+  width: 371.61px;
+height: 80px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  display: flex;
+  color: #0B132A;
+}
+.box-features{
+  justify-content: flex-start;
+}
 .column-left {
 
   justify-content: flex-start;
@@ -397,4 +413,9 @@ border-radius: 50px;
 .retreat{
   display: inline-flex;
 padding: 5px;
+}
+.title-size{
+  
+  width: 447px;
+  height: 100px;
 }
